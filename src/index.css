@@ -95,3 +95,15 @@ h1 {
 .bold {
   font-weight: 700;
 }
+
+@media (max-width: 600px) {
+  .app .bottom {
+    margin-bottom: 2rem;
+  }
+  .bottom .bold {
+    font-size: 1rem;
+  }
+  .bottom .light {
+    font-size: 1rem;
+  }
+}
